@@ -1,0 +1,84 @@
+div {
+position: relative;
+background-color: rgb(250, 1, 1);
+bottom: 10px;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+
+
+.TITULO {
+text-align: center;
+font-size: 60px;
+color: rgb(14, 2, 2);
+font-family: 'Times New Roman', Times, serif;
+font-style: italic;
+border: 30px solid rgb(255, 7, 48);
+background-color: rgb(235, 15, 180);
+transition: 1s;
+cursor: pointer;
+}
+
+.TITULO:hover {
+    border: 30px solid pink;
+    background-color: rgb(250, 3, 3);
+    transition: 1s;
+}
+
+
+.PROPOSTA {
+    margin-left: 15px;
+    font-size: 45px;
+    color: rgb(12, 5, 5);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.SEGUIMENTO {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+    color: rgb(10, 7, 7);
+    font-size: 45px;
+    margin-left: 15px;
+}
+
+.ATIVIDADES {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+    color: rgb(19, 16, 16);
+    font-size: 45px;
+    margin-left: 15px;
+}
+
+p {
+    font-size: 25px;
+    font-family: arial;
+    color: rgb(8, 7, 7);
+    margin-left: 10px;
+}
+
+.SOBRE {
+    font-size: 35px;
+    color: rgb(7, 6, 6);
+    font-family: impact;
+    font-style: italic;
+}  
+
+hr {
+    height: 30px;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: #070808;
+    border-width: 1px 0 0 0;
+}
+
+.PAGAMENTO {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    color: rgb(17, 14, 14);
+    margin-left: 10px;
+    font-size: 45px;
+
+}
